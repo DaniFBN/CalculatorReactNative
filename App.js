@@ -12,6 +12,7 @@ import Button from './src/components/Button'
 
 export default class App extends Component {
   render() {
+    console.warn('Test commit')
     return (
       <View style={styles.container}>
         <View style={styles.buttons}>
